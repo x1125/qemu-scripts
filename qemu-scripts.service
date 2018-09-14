@@ -1,0 +1,9 @@
+[Unit]
+Description=Qemu-Scripts Server
+
+[Service]
+Type=simple
+ExecStart=/opt/qemu-scripts/start.sh
+
+[Install]
+WantedBy=multi-user.target
